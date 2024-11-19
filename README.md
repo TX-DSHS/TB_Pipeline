@@ -4,11 +4,24 @@ Utilizing CDC Varpipe_wgs 1.0.2- This is a bioinformatic pipeline developed to a
 
 ![TB_workflow](https://github.com/TX-DSHS/tbCDC/blob/cf3d4f034305ccf411376789165b689bf515fe4a/TB%20Pipeline.pdf)
 
-Install:
-Download TB pipeline from (https://github.com/TX-DSHS/tbCDC.git) to the /bioinformatics/ proper directory of AWS EC2: 
-    git clone https://github.com/TX-DSHS/tbCDC.git
+# Prerequisites
+To run the pipeline locally, you will need to have the following programs installed:
+Python 2.7
+Python 3
+Java 1.8
+Singularity >=3.5
+The remaining programs used by the pipeline are included in this repository in the tools/ directory.
 
-Command:
+# Installation Instructions:
+1. Clone and dowload this repository to the /bioinformatics/ section of the AWS EC2 with the command:
+git clone https://github.com/CDCGov/NCHHSTP-DTBE-Varpipe-WGS.git
+2. Run setup.sh to finish the installation. This script runs several steps:
+Downloads the clockwork singularity image
+Downloads GATK
+Builds a reference fasta and creates BWA indexes
+
+# Command:
+Within in the /data directory, run this command:
 /runVarpipeline.sh TX-########
 
 
