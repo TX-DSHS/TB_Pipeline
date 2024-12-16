@@ -27,6 +27,10 @@ Builds a reference fasta and creates BWA indexes
 # Commands:
 Within in the /bioinformatics/.../data directory, run this command:
 /runVarpipeline.sh TX-########
-The pipeline will take several hours to complete. 
+
+The pipeline will take several hours to complete. Output folder will be zipped upon completion. 
+
+For post processing, within the /bioinformatics/..../sra_sub directory, run this command: 
+bash post_proc.sh TX-#########
 
 
