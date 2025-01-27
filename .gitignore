@@ -12,4 +12,18 @@ varpipe_wgs_new/tools/picard.jar
 varpipe_wgs_new/tools/ref2.fa
 varpipe_wgs_new/tools/samtools
 varpipe_wgs_new/tools/bcftools
+varpipe_wgs/githubkey*
+varpipe_wgs/data/nohup.out
+varpipe_wgs/data/.nextflow*
+varpipe_wgs/data/Output
+varpipe_wgs/data/kraken2_db
+varpipe_wgs/tools/clockwork-0.11.3
+varpipe_wgs/tools/gatk-4.2.4.0
+varpipe_wgs/tools/snpEff
+varpipe_wgs/tools/bcftools
+varpipe_wgs/tools/bwa
+varpipe_wgs/tools/picard.jar
+varpipe_wgs/tools/ref2.fa
+varpipe_wgs/tools/samtools
+varpipe_wgs/tools/bcftools
 
