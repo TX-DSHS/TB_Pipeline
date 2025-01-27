@@ -1,0 +1,22 @@
+#!/bin/bash
+
+cd Output/$1
+for i in */; do
+        dir=${i%/}
+        if [ "$dir" = "QC" ]; then
+		cd QC
+		for j in */; do
+                        #echo $j;
+			dir=${j%/}
+			#echo $dir;
+			#docker run -v /home/lab/tbCDC/varpipe_wgs/data/:/data/ staphb/kraken2 kraken2 --paired --threads 8 --db kraken2_db /data/Output/$1/QC/$dir/$dir\_R1_001.fastq.gz /data/Output/$1/QC/$dir/$dir\_R2_001.fastq.gz --output - --report /data/Output/$1/QC/$dir/$dir\_kraken.txt --gzip-compressed
+			docker run -v /home/lab/tbCDC/varpipe_wgs/data/:/data/ staphb/kraken2 kraken2 --paired --threads 8 --db kraken2_db /data/Output/$1/QC/$dir/trimmomatic/$dir\_paired_1.fastq.gz /data/Output/$1/QC/$dir/trimmomatic/$dir\_paired_2.fastq.gz --output - --report /data/Output/$1/QC/$dir/$dir\_kraken.txt --gzip-compressed
+                done
+        else
+                #echo $dir
+		#echo "done"
+		#docker run -v /home/lab/tbCDC/varpipe_wgs/data/:/data/ staphb/kraken2 kraken2 --paired --threads 8 --db kraken2_db /data/Output/$1/$dir/$dir\_R1_001.fastq.gz /data/Output/$1/$dir/$dir\_R2_001.fastq.gz --output - --report /data/Output/$1/$dir/$dir\_kraken.txt --gzip-compressed
+		docker run -v /home/lab/tbCDC/varpipe_wgs/data/:/data/ staphb/kraken2 kraken2 --paired --threads 8 --db kraken2_db /data/Output/$1/$dir/trimmomatic/$dir\_paired_1.fastq.gz /data/Output/$1/$dir/trimmomatic/$dir\_paired_2.fastq.gz --output - --report /data/Output/$1/$dir/$dir\_kraken.txt --gzip-compressed
+        fi
+done
+

@@ -1,0 +1,7 @@
+rm -f /bioinformaticshome/lab/tbCDC/varpipe_wgs/data/Output/TX-M08531-240410/*.fastq.gz
+sh /home/lab/tbCDC/varpipe_wgs/data/output_scripts/run_kraken.sh TX-M08531-240410
+sh /home/lab/tbCDC/varpipe_wgs/data/output_scripts/create_outputs.sh TX-M08531-240410
+rm -rf /home/lab/tbCDC/varpipe_wgs/data/Output/TX-M08531-240410/*/trimmomatic && rm -rf /home/lab/tbCDC/varpipe_wgs/data/Output/TX-M08531-240410/QC/*/trimmomatic
+cd /home/lab/tbCDC/varpipe_wgs/data/Output/ && zip -r TX-M08531-240410.zip TX-M08531-240410 && rm -rf TX-M08531-240410 && cd /home/lab/tbCDC/varpipe_wgs/data/
+aws s3 cp /home/lab/tbCDC/varpipe_wgs/data/Output/TX-M08531-240410.zip s3://804609861260-bioinformatics-infectious-disease/TB/ANALYSIS_RESULTS/TX-M08531-240410.zip
+echo 'Pipeline complete!'
