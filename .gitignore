@@ -1,0 +1,17 @@
+varpipe_wgs/data/nohup.out
+varpipe_wgs/data/.TX*
+varpipe_wgs/data/nohup.out
+varpipe_wgs/data/.nextflow
+varpipe_wgs/data/.nextflow.log.* 
+varpipe_wgs/data/Output
+#data/kraken2_db
+#tools/clockwork-0.11.3
+#tools/gatk-4.2.4.0
+#tools/snpEff
+#tools/bcftools
+#tools/bwa
+#tools/picard.jar
+#tools/ref2.fa
+#tools/samtools
+#tools/bcftools
+
