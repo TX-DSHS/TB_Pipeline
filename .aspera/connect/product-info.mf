@@ -1,0 +1,4 @@
+<product>
+  <name>Aspera Connect</name>
+  <version>4.2.8.540</version>
+</product>

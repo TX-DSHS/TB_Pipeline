@@ -1,0 +1,1079 @@
+/* about_window.cpp */
+"About - %s" = "About - %s";
+"About - IBM Aspera Crypt" = "About - IBM Aspera Crypt";
+"IBM Aspera Crypt" = "IBM Aspera Crypt";
+"Internal (%s)" = "Internal (%s)";
+"Release (%s)" = "Release (%s)";
+"\302\251 Copyright IBM Corp. 2009, 2021" = "\302\251 Copyright IBM Corp. 2009, 2021";
+
+
+/* account_manager.cpp */
+"Account has been deleted." = "Account has been deleted.";
+"Account is missing an ID." = "Account is missing an ID.";
+"Authentication error (at remote view)" = "Authentication error (at remote view)";
+"Could not save account. %s" = "Could not save account. %s";
+"Host is empty." = "Host is empty.";
+"Invalid credentials." = "Invalid credentials.";
+"Max threads reached." = "Max threads reached.";
+"Missing token." = "Missing token.";
+"No authentication type specified." = "No authentication type specified.";
+"No services discovered." = "No services discovered.";
+"Password field is empty." = "Password field is empty.";
+"Service discovery failed. No services discovered for host: %s" = "Service discovery failed. No services discovered for host: %s";
+"Storage validation failed." = "Storage validation failed.";
+"The server returned the following error:" = "The server returned the following error:";
+"This server does not have node services for storage testing." = "This server does not have node services for storage testing.";
+"This server requires a valid storage configuration." = "This server requires a valid storage configuration.";
+"User field is empty." = "User field is empty.";
+"Your password has expired. Please reset your password and try again." = "Your password has expired. Please reset your password and try again.";
+
+
+/* account_verification_dialog.cpp */
+"%s Setup" = "%s Setup";
+"Account is invalid." = "Account is invalid.";
+"Cancel" = "Cancel";
+"Connecting..." = "Connecting...";
+"Error verifying host: %s" = "Error verifying host: %s";
+"Looking up host..." = "Looking up host...";
+"Next" = "Next";
+"OK" = "OK";
+"Please click 'Next' to re-authenticate the account: '%s'." = "Please click 'Next' to re-authenticate the account: '%s'.";
+"Remove" = "Remove";
+"Verifying cloud storage..." = "Verifying cloud storage...";
+
+
+/* accounts_model.cpp */
+" (default)" = " (default)";
+"Accounts" = "Accounts";
+
+
+/* accounts_pref_widget.cpp */
+"Account" = "Account";
+"Account name" = "Account name";
+"All changes will be discarded. Are you sure you want to proceed?" = "All changes will be discarded. Are you sure you want to proceed?";
+"Are you sure you want to remove %s?" = "Are you sure you want to remove %s?";
+"Do not verify host's SSL certificate" = "Do not verify host's SSL certificate";
+"Packages" = "Packages";
+"Password" = "Password";
+"Please complete the account information." = "Please complete the account information.";
+"Preferences contains errors:" = "Preferences contains errors:";
+"Querying for services failed" = "Querying for services failed";
+"Server address" = "Server address";
+"Services" = "Services";
+"Settings..." = "Settings...";
+"Sync" = "Sync";
+"There are no Aspera services associated with this account.\nClick here to discover services." = "There are no Aspera services associated with this account.\nClick here to discover services.";
+"Username" = "Username";
+"Your authentication token has gone stale. Click here to re-authenticate." = "Your authentication token has gone stale. Click here to re-authenticate.";
+"\nAll account transfers and services will be stopped and removed." = "\nAll account transfers and services will be stopped and removed.";
+"unknown" = "unknown";
+
+
+/* activity_window.cpp */
+"Activity - %s" = "Activity - %s";
+"Application menu" = "Application menu";
+"Inboxes" = "Inboxes";
+"Transfers" = "Transfers";
+
+
+/* add_account_wizard2.cpp */
+"A month ago" = "A month ago";
+"A week ago" = "A week ago";
+"Account Wizard - %s" = "Account Wizard - %s";
+"Account name:" = "Account name:";
+"Almost done" = "Almost done";
+"An account with the same name already exists. Please choose a new name." = "An account with the same name already exists. Please choose a new name.";
+"Authentication" = "Authentication";
+"Authentication URL is empty" = "Authentication URL is empty";
+"Automatically download my packages to the following directory" = "Automatically download my packages to the following directory";
+"Back" = "Back";
+"Basic Authentication" = "Basic Authentication";
+"Browse..." = "Browse...";
+"Change..." = "Change...";
+"Check for new packages" = "Check for new packages";
+"Checking for new packages" = "Checking for new packages";
+"Choose folders to sync" = "Choose folders to sync";
+"Completing the Account Setup" = "Completing the Account Setup";
+"Continuous Mode" = "Continuous Mode";
+"Could not retrieve token from OAuth provider" = "Could not retrieve token from OAuth provider";
+"Direction" = "Direction";
+"Download existing packages" = "Download existing packages";
+"Download my packages from date sent" = "Download my packages from date sent";
+"Email" = "Email";
+"Enter your IBMid or work email to look up your organization." = "Enter your IBMid or work email to look up your organization.";
+"Enter your organization URL here." = "Enter your organization URL here.";
+"Error verifying host: %1$s.\n%2$s" = "Error verifying host: %1$s.\n%2$s";
+"Every 15 Minutes" = "Every 15 Minutes";
+"Every 30 Minutes" = "Every 30 Minutes";
+"Every 5 Minutes" = "Every 5 Minutes";
+"Every Hour" = "Every Hour";
+"Every Minute" = "Every Minute";
+"Fast and secure access to all your files." = "Fast and secure access to all your files.";
+"Finish" = "Finish";
+"I'd rather not set up automatic downloading now." = "I'd rather not set up automatic downloading now.";
+"I'd rather not set up file syncing now." = "I'd rather not set up file syncing now.";
+"I'll check manually using the Check Now option." = "I'll check manually using the Check Now option.";
+"I'll choose the folder to sync later." = "I'll choose the folder to sync later.";
+"Inbox Setup" = "Inbox Setup";
+"Local Mounts Signature Pathname" = "Local Mounts Signature Pathname";
+"Local to Remote" = "Local to Remote";
+"Login" = "Login";
+"Looking up services..." = "Looking up services...";
+"New Account" = "New Account";
+"OR" = "OR";
+"Only download packages from now on." = "Only download packages from now on.";
+"Package downloading" = "Package downloading";
+"Password:" = "Password:";
+"Place my files in the following directory" = "Place my files in the following directory";
+"Please choose your authentication method." = "Please choose your authentication method.";
+"Please enter all fields." = "Please enter all fields.";
+"Please enter your account email address or organization name." = "Please enter your account email address or organization name.";
+"Please enter your account email address." = "Please enter your account email address.";
+"Please enter your credentials." = "Please enter your credentials.";
+"Please enter your organization name." = "Please enter your organization name.";
+"Please enter your server information." = "Please enter your server information.";
+"Problem..." = "Problem...";
+"Remote Mounts Signature Pathname" = "Remote Mounts Signature Pathname";
+"Remote to Local" = "Remote to Local";
+"SAML Authentication" = "SAML Authentication";
+"Select the IBM Aspera product you want to link to Drive." = "Select the IBM Aspera product you want to link to Drive.";
+"Server address entered invalid" = "Server address entered invalid";
+"Server address:" = "Server address:";
+"Set up account" = "Set up account";
+"Sync Setup" = "Sync Setup";
+"Sync folder location" = "Sync folder location";
+"Synchronize with the selected remote folders." = "Synchronize with the selected remote folders.";
+"The beginning of time" = "The beginning of time";
+"The folder selected is not empty. Do you want to continue?" = "The folder selected is not empty. Do you want to continue?";
+"The following services are available for this account." = "The following services are available for this account.";
+"There was a problem with your account." = "There was a problem with your account.";
+"This wizard will help you set up your account." = "This wizard will help you set up your account.";
+"Tip:" = "Tip:";
+"Two-Way" = "Two-Way";
+"Unknown host type." = "Unknown host type.";
+"User name:" = "User name:";
+"Username:" = "Username:";
+"Verifying storage..." = "Verifying storage...";
+"We've sent your organization URL to your email." = "We've sent your organization URL to your email.";
+"Welcome to IBM Aspera Drive" = "Welcome to IBM Aspera Drive";
+"Yesterday" = "Yesterday";
+"Your account is almost complete. Press finish to create your account." = "Your account is almost complete. Press finish to create your account.";
+
+
+/* aoc_base_item.cpp */
+"Disconnected share" = "Disconnected share";
+
+
+/* aoc_workspaces_and_shared_folders_dialog.cpp */
+"Could not retrieve list of workspaces from the server." = "Could not retrieve list of workspaces from the server.";
+"Loading..." = "Loading...";
+"My inbox" = "My inbox";
+"Save" = "Save";
+"Select specific workspaces and shared inboxes for download" = "Select specific workspaces and shared inboxes for download";
+"Shared inboxes" = "Shared inboxes";
+"Workspace: %s" = "Workspace: %s";
+"Workspaces and shared inboxes - %s" = "Workspaces and shared inboxes - %s";
+
+
+/* application.cpp */
+"%1$s stopped. You are running very low on disk space on (%2$s)." = "%1$s stopped. You are running very low on disk space on (%2$s).";
+"%1$s. And %2$llu%% disk space remaining for download to %3$s." = "%1$s. And %2$llu%% disk space remaining for download to %3$s.";
+"%1$s. And %2$llu%% disk space remaining for sync to %3$s." = "%1$s. And %2$llu%% disk space remaining for sync to %3$s.";
+"%s Name is already taken." = "%s Name is already taken.";
+"Accounts: " = "Accounts: ";
+
+
+/* aspcore_utils.cpp */
+"Path begins with ../" = "Path begins with ../";
+"Path contains /../" = "Path contains /../";
+"Path ends with /.." = "Path ends with /..";
+"Path is .." = "Path is ..";
+"Path is too long. Max length of %s exceeded." = "Path is too long. Max length of %s exceeded.";
+
+
+/* auth_error_dlg.cpp */
+"Aspera Drive cannot access %s" = "Aspera Drive cannot access %s";
+"Check the account settings and passwords. Otherwise, there might be a problem with your network." = "Check the account settings and passwords. Otherwise, there might be a problem with your network.";
+"Network Error" = "Network Error";
+"Open Settings" = "Open Settings";
+
+
+/* authentication_window.cpp */
+"&Password:" = "&Password:";
+"&Remember this password" = "&Remember this password";
+"&User Name:" = "&User Name:";
+"Authenticate - %s" = "Authenticate - %s";
+"Login to: %s" = "Login to: %s";
+"Password input field" = "Password input field";
+"Password is too long. Maximum length is %d." = "Password is too long. Maximum length is %d.";
+"User name input field" = "User name input field";
+
+
+/* bandwidth_pref_widget.cpp */
+"Automatic Transfers" = "Automatic Transfers";
+"Background downloads" = "Background downloads";
+"Background uploads" = "Background uploads";
+"Downloads" = "Downloads";
+"Limit to" = "Limit to";
+"Manual Transfers" = "Manual Transfers";
+"The settings below let you limit transfer speeds for sync transfers and other background jobs." = "The settings below let you limit transfer speeds for sync transfers and other background jobs.";
+"The settings below let you limit transfer speeds for user-initiated transfers." = "The settings below let you limit transfer speeds for user-initiated transfers.";
+"Transfer speeds depend on server settings and your network connectivity." = "Transfer speeds depend on server settings and your network connectivity.";
+"Uploads" = "Uploads";
+
+
+/* base_item.cpp */
+"Are you sure you want to permanently delete these files?" = "Are you sure you want to permanently delete these files?";
+"Are you sure you want to permanently delete this file?" = "Are you sure you want to permanently delete this file?";
+"Aspera Drive" = "Aspera Drive";
+"Delete Files" = "Delete Files";
+"Folder is limited to %d items." = "Folder is limited to %d items.";
+"New Folder" = "New Folder";
+"Rename Error" = "Rename Error";
+"The destination already has an item with the same file name." = "The destination already has an item with the same file name.";
+
+
+/* bitrate_formatter.cpp */
+"%s Gbps" = "%s Gbps";
+"%s Kbps" = "%s Kbps";
+"%s Mbps" = "%s Mbps";
+"%s Tbps" = "%s Tbps";
+"%s bps" = "%s bps";
+
+
+/* busy_dialog.cpp */
+"Processing..." = "Processing...";
+
+
+/* cargo_application.cpp */
+"%s is already running." = "%s is already running.";
+
+
+/* confirm_delete_source_dialog.cpp */
+"Confirm deletion - %s" = "Confirm deletion - %s";
+
+
+/* confirm_yes_or_no_window.cpp */
+"Confirm - %s" = "Confirm - %s";
+"No" = "No";
+"Yes" = "Yes";
+
+
+/* confirmation_window.cpp */
+"%s - Security Warning" = "%s - Security Warning";
+"Allow access to your computer?" = "Allow access to your computer?";
+"Remember my choice for this site." = "Remember my choice for this site.";
+"This site is on the restricted list." = "This site is on the restricted list.";
+"This site is requesting permission to upload and download files to and from your computer." = "This site is requesting permission to upload and download files to and from your computer.";
+
+
+/* conflicted_files_window2.cpp */
+"(first %d displayed) " = "(first %d displayed) ";
+"Conflicted Files %1$s- %2$s" = "Conflicted Files %1$s- %2$s";
+"Failed to rename file from %1$s to %2$s" = "Failed to rename file from %1$s to %2$s";
+"Location" = "Location";
+"Last Updated By" = "Last Updated By";
+"Path" = "Path";
+"Name" = "Name";
+"Refresh" = "Refresh";
+"Resolve Selected Conflicts" = "Resolve Selected Conflicts";
+"Save copy of the local conflicted file and sync again" = "Save copy of the local conflicted file and sync again";
+"Show in %s" = "Show in %s";
+
+
+/* connect_application.cpp */
+"%1$s is already running. Please quit before running %2$s." = "%1$s is already running. Please quit before running %2$s.";
+"A previous installation of Aspera Drive has been detected. Would you like to migrate your account information? This will remove your accounts from Aspera Drive." = "A previous installation of Aspera Drive has been detected. Would you like to migrate your account information? This will remove your accounts from Aspera Drive.";
+"A previous installation of Cargo Downloader has been detected. Would you like to migrate your settings and uninstall Cargo Downloader?" = "A previous installation of Cargo Downloader has been detected. Would you like to migrate your settings and uninstall Cargo Downloader?";
+"An instance of the application is already running." = "An instance of the application is already running.";
+"There was an error migrating from Aspera Drive. It is recommended to manually migrate your account information." = "There was an error migrating from Aspera Drive. It is recommended to manually migrate your account information.";
+"Welcome to %s. Your setup is almost complete. Please enter your account login information." = "Welcome to %s. Your setup is almost complete. Please enter your account login information.";
+"You have invalid accounts. Would you like to review them?" = "You have invalid accounts. Would you like to review them?";
+"Your accounts have been successfully migrated from Aspera Drive. You may be prompted to re-enter your account credentials. Would you like to uninstall Aspera Drive?" = "Your accounts have been successfully migrated from Aspera Drive. You may be prompted to re-enter your account credentials. Would you like to uninstall Aspera Drive?";
+
+
+/* connect_tray_handler.cpp */
+"%d inboxes." = "%d inboxes.";
+"%d syncs." = "%d syncs.";
+"%d transfers." = "%d transfers.";
+"&Send To..." = "&Send To...";
+"&Send to..." = "&Send to...";
+"1 inbox." = "1 inbox.";
+"1 sync." = "1 sync.";
+"1 transfer." = "1 transfer.";
+"Active:" = "Active:";
+
+
+/* decrypt_manager.cpp */
+"Cannot perform operations during decryption." = "Cannot perform operations during decryption.";
+"Could not remove file %s" = "Could not remove file %s";
+"Could not remove file %s. Does not exist" = "Could not remove file %s. Does not exist";
+"Could not remove file %s. file does not exist." = "Could not remove file %s. file does not exist.";
+"Could not rename input %1$s to %2$s" = "Could not rename input %1$s to %2$s";
+"Could not rename output %1$s to %2$s" = "Could not rename output %1$s to %2$s";
+"Decryption already in progress." = "Decryption already in progress.";
+"Error: could not allocate memory for task %s " = "Error: could not allocate memory for task %s ";
+"Failed list is empty." = "Failed list is empty.";
+"Task could not be created for %s" = "Task could not be created for %s";
+
+
+/* download_dlg.cpp */
+"Ask me every time" = "Ask me every time";
+"Aspera Drive - Download destination" = "Aspera Drive - Download destination";
+"Browse" = "Browse";
+"Download" = "Download";
+"Download files to:" = "Download files to:";
+"Error" = "Error";
+"Invalid path is specified. " = "Invalid path is specified. ";
+"Select folder" = "Select folder";
+
+
+/* drive_context_handler.cpp */
+"Copy" = "Copy";
+"Delete" = "Delete";
+"Open" = "Open";
+"Preferences" = "Preferences";
+"Rename" = "Rename";
+
+
+/* error_dlg.cpp */
+"Aspera Drive - Error" = "Aspera Drive - Error";
+"Aspera Drive couldn't complete the request." = "Aspera Drive couldn't complete the request.";
+"Aspera Drive couldn't complete the request.\n\nDetails: %s" = "Aspera Drive couldn't complete the request.\n\nDetails: %s";
+
+
+/* external_context_menu.cpp */
+"Activity" = "Activity";
+"Send files..." = "Send files...";
+
+
+/* fasp_decrypt_worker.cpp */
+"Cancelled by user" = "Cancelled by user";
+"Code:" = "Code:";
+"Could not initialize decrypter." = "Could not initialize decrypter.";
+"Could not write out to device." = "Could not write out to device.";
+"Could not write to destination." = "Could not write to destination.";
+"Input file is corrupted or not encrypted." = "Input file is corrupted or not encrypted.";
+"Invalid file" = "Invalid file";
+"Source file does not exist." = "Source file does not exist.";
+"Source is not a file." = "Source is not a file.";
+
+
+/* fasp_transfer_inspector_window.cpp */
+"Fair" = "Fair";
+"Fixed" = "Fixed";
+"High" = "High";
+"Low" = "Low";
+"The selected transfer policy is not allowed. The server allowed policy is: %s." = "The selected transfer policy is not allowed. The server allowed policy is: %s.";
+"Transfer Monitor" = "Transfer Monitor";
+
+
+/* faspex_box_fs_item.cpp */
+"Archived" = "Archived";
+"Inbox" = "Inbox";
+"Sent" = "Sent";
+
+
+/* faspex_contact.cpp */
+"Failed to parse XML." = "Failed to parse XML.";
+
+
+/* faspex_feed_processor2.cpp */
+"Could not start automatic checking for packages." = "Could not start automatic checking for packages.";
+"Packages-checking request rejected by server as unauthorized" = "Packages-checking request rejected by server as unauthorized";
+
+
+/* faspex_inbox_item_widget.cpp */
+"%1$s (+ %2$d)" = "%1$s (+ %2$d)";
+"Automatic checking is off." = "Automatic checking is off.";
+"Checking for new packages in: %s" = "Checking for new packages in: %s";
+"Checking for new packages..." = "Checking for new packages...";
+"Error: %1$s %2$s left" = "Error: %1$s %2$s left";
+"Error: %1$s - to retry in %2$s" = "Error: %1$s - to retry in %2$s";
+"Error: %s" = "Error: %s";
+"No Inbox" = "No Inbox";
+"Start automatic checking and resume inbox transfers." = "Start automatic checking and resume inbox transfers.";
+"Stop automatic checking and inbox transfers." = "Stop automatic checking and inbox transfers.";
+"Stopped" = "Stopped";
+
+
+/* faspex_inbox_task.cpp */
+"Account \" = "Account \";
+"Failed to query a server service" = "Failed to query a server service";
+"Unable to check for packages due to network timeout" = "Unable to check for packages due to network timeout";
+"User name or password not accepted, please check credentials and restart this Inbox." = "User name or password not accepted, please check credentials and restart this Inbox.";
+
+
+/* faspex_inbox_window.cpp */
+"Check All" = "Check All";
+"Check now" = "Check now";
+"Faspex Inboxes - %s" = "Faspex Inboxes - %s";
+"Inbox settings" = "Inbox settings";
+"Open folder" = "Open folder";
+
+
+/* faspex_settings_dialog.cpp */
+"Automatically unlock encrypted files on download" = "Automatically unlock encrypted files on download";
+"Change" = "Change";
+"Date" = "Date";
+"Do not download packages sent by me" = "Do not download packages sent by me";
+"Download received packages to" = "Download received packages to";
+"Inbox settings could not be saved due to the following errors: %s" = "Inbox settings could not be saved due to the following errors: %s";
+"No download folder selected." = "No download folder selected.";
+"Overwrite packages that have the same title" = "Overwrite packages that have the same title";
+"Packages - %s" = "Packages - %s";
+"Packages are downloaded from:" = "Packages are downloaded from:";
+"Passphrase" = "Passphrase";
+"Passphrase is empty." = "Passphrase is empty.";
+"Select workspaces to download" = "Select workspaces to download";
+"The download folder is not empty. Do you want to continue?" = "The download folder is not empty. Do you want to continue?";
+
+
+/* files_container_fs_item.cpp */
+"Files" = "Files";
+
+
+/* files_feed_processor.cpp */
+"Couldn't parse packages response. Check request parameters" = "Couldn't parse packages response. Check request parameters";
+"Self query returned nil" = "Self query returned nil";
+"Workspace query returned nil" = "Workspace query returned nil";
+
+
+/* files_fs.cpp */
+"Administratively Shared" = "Administratively Shared";
+
+
+/* files_fs_item.cpp */
+" (Shared)" = " (Shared)";
+
+
+/* filesystem_browser_cell.mm */
+"Archive" = "Archive";
+"Undo archive" = "Undo archive";
+
+
+/* filesystem_node.mm */
+"Folder %1$s is limited to %2$d." = "Folder %1$s is limited to %2$d.";
+"Internal Error. FSItem is Null." = "Internal Error. FSItem is Null.";
+"Internal Error. FSItem is null." = "Internal Error. FSItem is null.";
+"The original file does not exist." = "The original file does not exist.";
+
+
+/* general_pref_widget.cpp */
+"* Refresh to apply." = "* Refresh to apply.";
+"Activity Window" = "Activity Window";
+"Automatically launch when Windows starts" = "Automatically launch when Windows starts";
+"Close Activity window when all transfers are complete" = "Close Activity window when all transfers are complete";
+"Debug" = "Debug";
+"Disk Space" = "Disk Space";
+"Disk space percentage" = "Disk space percentage";
+"Disk space warning:" = "Disk space warning:";
+"Info" = "Info";
+"Logging" = "Logging";
+"Logging level:" = "Logging level:";
+"Manually" = "Manually";
+"Max remote view items:" = "Max remote view items:";
+"Open Transfers tab when an Inbox transfer is added" = "Open Transfers tab when an Inbox transfer is added";
+"Remote View" = "Remote View";
+"Remove transfer list items:" = "Remove transfer list items:";
+"* Refresh to apply." = "* Refresh to apply.";
+"Trace" = "Trace";
+"percent" = "percent";
+"Upon Successful Transfer" = "Upon Successful Transfer";
+
+
+/* gui_application.cpp */
+"%1$s Inbox - %2$s" = "%1$s Inbox - %2$s";
+"%1$s Sync - %2$s" = "%1$s Sync - %2$s";
+"Account is invalid. Check network connection, account information and save." = "Account is invalid. Check network connection, account information and save.";
+"Account name empty" = "Account name empty";
+"Could not delete sources for transfer: %s.\nThe file(s) may be in use or you do not have permission." = "Could not delete sources for transfer: %s.\nThe file(s) may be in use or you do not have permission.";
+"Could not start new package. Check your settings or network connection and try again." = "Could not start new package. Check your settings or network connection and try again.";
+"Transfer monitor is unavailable for this transfer, because no activity is occurring." = "Transfer monitor is unavailable for this transfer, because no activity is occurring.";
+"You have active transfers. Are you sure you want to quit?" = "You have active transfers. Are you sure you want to quit?";
+
+
+/* gui_utils.cpp */
+"Choose Folder - %s" = "Choose Folder - %s";
+"Folder %s does not exist" = "Folder %s does not exist";
+"No permission to download from %s" = "No permission to download from %s";
+"No permission to upload to %s" = "No permission to upload to %s";
+"Please complete account information." = "Please complete account information.";
+
+
+/* hosts_model.cpp */
+"Host" = "Host";
+"Trust State" = "Trust State";
+"User" = "User";
+
+
+/* human_string.cpp */
+"at %s" = "at %s";
+"on %s" = "on %s";
+"yesterday" = "yesterday";
+
+
+/* main_window.cpp */
+"   %1$s finished, %2$s failed, %3$s pending, %4$s total" = "   %1$s finished, %2$s failed, %3$s pending, %4$s total";
+"%s task has failed." = "%s task has failed.";
+"About" = "About";
+"About..." = "About...";
+"Clear All" = "Clear All";
+"Clear Failed" = "Clear Failed";
+"Clear Finished" = "Clear Finished";
+"Clear Pending" = "Clear Pending";
+"Clear all tasks" = "Clear all tasks";
+"Clear failed tasks" = "Clear failed tasks";
+"Clear finished tasks" = "Clear finished tasks";
+"Clear pending tasks" = "Clear pending tasks";
+"Decrypt" = "Decrypt";
+"Decrypt all files and folders in selected folder" = "Decrypt all files and folders in selected folder";
+"Delete Encrypted" = "Delete Encrypted";
+"Delete encrypted files from finished tasks" = "Delete encrypted files from finished tasks";
+"Do you want to delete encrypted source files from finished tasks?" = "Do you want to delete encrypted source files from finished tasks?";
+"Do you want to reload?" = "Do you want to reload?";
+"Drag files and folders to start decrypting..." = "Drag files and folders to start decrypting...";
+"Enter Passphrase" = "Enter Passphrase";
+"Exit" = "Exit";
+"Failed" = "Failed";
+"File" = "File";
+"Latest" = "Latest";
+"Open About dialog" = "Open About dialog";
+"Open Directory" = "Open Directory";
+"Open Encrypted files" = "Open Encrypted files";
+"Open Files" = "Open Files";
+"Open Folder" = "Open Folder";
+"Open Settings dialog" = "Open Settings dialog";
+"Options" = "Options";
+"Reload Failed" = "Reload Failed";
+"Reload failed tasks and resets status to Pending" = "Reload failed tasks and resets status to Pending";
+"Select file(s) to decrypt" = "Select file(s) to decrypt";
+"Settings" = "Settings";
+"Show passphrase" = "Show passphrase";
+"There are current tasks. Do you want to exit?" = "There are current tasks. Do you want to exit?";
+"View:" = "View:";
+
+
+/* metadata_input_widget.cpp */
+"Missing required fields: %s" = "Missing required fields: %s";
+
+
+/* mnts_sig_pathname_mixin.cpp */
+"Browse to parent directory of sync source and specify signature filename" = "Browse to parent directory of sync source and specify signature filename";
+"Failed to create local mounts signature file by specified pathname" = "Failed to create local mounts signature file by specified pathname";
+"Local mounts signature file specified by pathname found to be a directory" = "Local mounts signature file specified by pathname found to be a directory";
+"Local mounts signature file specified by pathname not an ordinary file" = "Local mounts signature file specified by pathname not an ordinary file";
+"Signature file on mounted location in parent directory of sync source on local system" = "Signature file on mounted location in parent directory of sync source on local system";
+"Signature file on mounted location in parent directory of sync source on remote system" = "Signature file on mounted location in parent directory of sync source on remote system";
+"Signature file specified by pathname must exist before sync session is started" = "Signature file specified by pathname must exist before sync session is started";
+"Signature file specified by pathname must exist on remote system before sync session is started" = "Signature file specified by pathname must exist on remote system before sync session is started";
+"Specify local mounts signature file" = "Specify local mounts signature file";
+
+
+/* network_pref_widget.cpp */
+"Address:" = "Address:";
+"Configure proxy settings." = "Configure proxy settings.";
+"Connect to the Internet via an HTTP proxy." = "Connect to the Internet via an HTTP proxy.";
+"FASP Proxy" = "FASP Proxy";
+"HTTP Proxy" = "HTTP Proxy";
+"Manual" = "Manual";
+"Network: FASP Address is empty.\n" = "Network: FASP Address is empty.\n";
+"Network: FASP Port is empty. Valid range is 0 to 65535.\n" = "Network: FASP Port is empty. Valid range is 0 to 65535.\n";
+"Network: FASP Port is invalid. Valid range is 0 to 65535.\n" = "Network: FASP Port is invalid. Valid range is 0 to 65535.\n";
+"Network: HTTP Port is empty. Valid range is 0 to 65535.\n" = "Network: HTTP Port is empty. Valid range is 0 to 65535.\n";
+"Network: HTTP Port is invalid. Valid range is 0 to 65535.\n" = "Network: HTTP Port is invalid. Valid range is 0 to 65535.\n";
+"Obtain proxy configuration from" = "Obtain proxy configuration from";
+"Port:" = "Port:";
+"Secure (DNATS)" = "Secure (DNATS)";
+"System" = "System";
+"Use FASP Proxy (DNAT)" = "Use FASP Proxy (DNAT)";
+"Use HTTP Proxy" = "Use HTTP Proxy";
+
+
+/* node_api.cpp */
+"Node V2 URL not found." = "Node V2 URL not found.";
+
+
+/* node_file_info_gatherer.cpp */
+" code" = " code";
+"Duplicated folder name: " = "Duplicated folder name: ";
+"Node Api returns non-syncable." = "Node Api returns non-syncable.";
+"Node not syncable" = "Node not syncable";
+". Please check your Files workspace and rename one of the folders." = ". Please check your Files workspace and rename one of the folders.";
+
+
+/* node_filesystem_model.cpp */
+"download only" = "download only";
+"no permissions" = "no permissions";
+"upload only" = "upload only";
+
+
+/* node_filesystem_model_delegate_tree_view.cpp */
+"Retry" = "Retry";
+
+
+/* node_transfer_worker.cpp */
+"Resource not found. Cannot start transfer." = "Resource not found. Cannot start transfer.";
+"Transfer failed" = "Transfer failed";
+
+
+/* passphrase_window.cpp */
+"'Passphrase' and 'Confirm' fields must be entered." = "'Passphrase' and 'Confirm' fields must be entered.";
+"'Passphrase' field must be entered." = "'Passphrase' field must be entered.";
+"A passphrase is required." = "A passphrase is required.";
+"Confirm" = "Confirm";
+"Confirm passphrase input field" = "Confirm passphrase input field";
+"Enter a passphrase to decrypt protected files as they are downloaded." = "Enter a passphrase to decrypt protected files as they are downloaded.";
+"Enter a passphrase to store files in an encrypted format on the server." = "Enter a passphrase to store files in an encrypted format on the server.";
+"Keep files encrypted" = "Keep files encrypted";
+"Keep files unencrypted" = "Keep files unencrypted";
+"Leave uploaded files unencrypted." = "Leave uploaded files unencrypted.";
+"Passphrase confirmation does not match." = "Passphrase confirmation does not match.";
+"Passphrase input field" = "Passphrase input field";
+"Passphrase is too long. Maximum length is %d." = "Passphrase is too long. Maximum length is %d.";
+"Protected Content - %s" = "Protected Content - %s";
+
+
+/* remote_view_controller.mm */
+"Are you sure you want to permanently delete the selected files?" = "Are you sure you want to permanently delete the selected files?";
+"Create new folder" = "Create new folder";
+"Create new package" = "Create new package";
+"Delete the selected item(s)" = "Delete the selected item(s)";
+"Download has not completed" = "Download has not completed";
+"Local inbox directory" = "Local inbox directory";
+"New folder" = "New folder";
+"Rename the selected item" = "Rename the selected item";
+"Server" = "Server";
+"Storage host" = "Storage host";
+"Storage path" = "Storage path";
+"Storage type" = "Storage type";
+"Sync local directory" = "Sync local directory";
+"The destination already has an item with the same file name. Continue?" = "The destination already has an item with the same file name. Continue?";
+
+
+/* root_fs.cpp */
+"My Offline Files" = "My Offline Files";
+
+
+/* security_pref_widget2.cpp */
+"Add" = "Add";
+"Are you sure you want to remove all credentials?" = "Are you sure you want to remove all credentials?";
+"Are you sure you want to remove all the hosts?" = "Are you sure you want to remove all the hosts?";
+"Are you sure you want to remove the credential?" = "Are you sure you want to remove the credential?";
+"Are you sure you want to remove the selected host?" = "Are you sure you want to remove the selected host?";
+"Content Protection" = "Content Protection";
+"Content protection allows you to leave files encrypted on servers to which they have been uploaded.  Enter a list of hosts for which you want to enable this functionality." = "Content protection allows you to leave files encrypted on servers to which they have been uploaded.  Enter a list of hosts for which you want to enable this functionality.";
+"Format not acceptable. '/' is only for specifying IP subnet ranges.\neg. 10.1.0.0/16." = "Format not acceptable. '/' is only for specifying IP subnet ranges.\neg. 10.1.0.0/16.";
+"Format not acceptable. Wildcard is only for the leftmost element of a fully qualified domain name.\neg. *.example.com." = "Format not acceptable. Wildcard is only for the leftmost element of a fully qualified domain name.\neg. *.example.com.";
+"Login information has been saved for the following hosts:" = "Login information has been saved for the following hosts:";
+"Passwords" = "Passwords";
+"Remove All" = "Remove All";
+"Restricted Hosts" = "Restricted Hosts";
+"Restricted hosts are hosts for which you have enabled enhanced security.  If any attempt is made to start a transfer with a host that is on this list, you will be presented with a warning before it can proceed." = "Restricted hosts are hosts for which you have enabled enhanced security.  If any attempt is made to start a transfer with a host that is on this list, you will be presented with a warning before it can proceed.";
+"Trusted Hosts" = "Trusted Hosts";
+"Trusted hosts are hosts to which you have granted permission to always allow transfers.  If any attempt is made to start a transfer with a host that is not on this list, you will be given the option to allow or deny the transfer." = "Trusted hosts are hosts to which you have granted permission to always allow transfers.  If any attempt is made to start a transfer with a host that is not on this list, you will be given the option to allow or deny the transfer.";
+
+
+/* select_folder_window.cpp */
+"Choose" = "Choose";
+"Look in:" = "Look in:";
+
+
+/* send_to_dialog.cpp */
+"Add files" = "Add files";
+"Add folder" = "Add folder";
+"Dropbox" = "Dropbox";
+"Email or group" = "Email or group";
+"Encrypt sent files" = "Encrypt sent files";
+"Failed to send package: " = "Failed to send package: ";
+"Maximum number of items reached." = "Maximum number of items reached.";
+"Name Conflicts - " = "Name Conflicts - ";
+"Notes" = "Notes";
+"Package not sent. Account has been deleted." = "Package not sent. Account has been deleted.";
+"Select files" = "Select files";
+"Send" = "Send";
+"Send Files - " = "Send Files - ";
+"Send as public Link" = "Send as public Link";
+"Server error. Failed to send package: " = "Server error. Failed to send package: ";
+"Shared Inbox" = "Shared Inbox";
+"Shared inbox" = "Shared inbox";
+"The following were not added because the same name exists:\n\n" = "The following were not added because the same name exists:\n\n";
+"The note is cut to fit the maximum length of %d." = "The note is cut to fit the maximum length of %d.";
+"The title cannot contain any of the following characters: %s" = "The title cannot contain any of the following characters: %s";
+"This workspace doesn't allow sending packages to external users." = "This workspace doesn't allow sending packages to external users.";
+"Title" = "Title";
+"Workspace" = "Workspace";
+
+
+/* settings_dialog.cpp */
+"1" = "1";
+"Delete encrypted files when finished" = "Delete encrypted files when finished";
+"Number of concurrent threads for decryption" = "Number of concurrent threads for decryption";
+
+
+/* setup_worker.cpp */
+"Permission denied to upload to %s" = "Permission denied to upload to %s";
+"The folder %s is no longer available. Go to Aspera on Cloud and resolve the errors." = "The folder %s is no longer available. Go to Aspera on Cloud and resolve the errors.";
+"The folder: %s is no longer available. Go to the Drive \" = "The folder: %s is no longer available. Go to the Drive \";
+"remote directory" = "remote directory";
+"remote directory: %s" = "remote directory: %s";
+
+
+/* shared_literals.cpp */
+"Show in Finder" = "Show in Finder";
+"Show in Windows Explorer" = "Show in Windows Explorer";
+"Show in file manager" = "Show in file manager";
+
+
+/* shell_module.cpp */
+"Certificate bundle not found. " = "Certificate bundle not found. ";
+"Delete permanently?" = "Delete permanently?";
+"Settings update required" = "Settings update required";
+"To remove this file only from your computer update your sync selection." = "To remove this file only from your computer update your sync selection.";
+"Would you like to delete this file everywhere?" = "Would you like to delete this file everywhere?";
+
+
+/* sso_adapter.cpp */
+"Failed to communicate with the host." = "Failed to communicate with the host.";
+
+
+/* sso_via_browser_dialog.cpp */
+"Failed to open default browser for authentication" = "Failed to open default browser for authentication";
+"Please sign on in the browser tab that just opened." = "Please sign on in the browser tab that just opened.";
+"SSO via Browser - %s" = "SSO via Browser - %s";
+
+
+/* start_spec.cpp */
+"remote selection" = "remote selection";
+
+
+/* status_code.cpp */
+"Accepted" = "Accepted";
+"Bad Gateway" = "Bad Gateway";
+"Bad Request" = "Bad Request";
+"Conflict" = "Conflict";
+"Continue" = "Continue";
+"Created" = "Created";
+"Encryption At Rest Passphrase Required" = "Encryption At Rest Passphrase Required";
+"Expectation Failed" = "Expectation Failed";
+"Forbidden" = "Forbidden";
+"Found" = "Found";
+"Gateway Timeout" = "Gateway Timeout";
+"Gone" = "Gone";
+"HTTP Version Not Supported" = "HTTP Version Not Supported";
+"Internal Server Error" = "Internal Server Error";
+"Length Required" = "Length Required";
+"Method Not Allowed" = "Method Not Allowed";
+"Moved Permanently" = "Moved Permanently";
+"Multiple Choices" = "Multiple Choices";
+"No Content" = "No Content";
+"Non-Authoritative Information" = "Non-Authoritative Information";
+"Not Acceptable" = "Not Acceptable";
+"Not Found" = "Not Found";
+"Not Implemented" = "Not Implemented";
+"Not Modified" = "Not Modified";
+"Partial Content" = "Partial Content";
+"Payment Required" = "Payment Required";
+"Precondition Failed" = "Precondition Failed";
+"Proxy Authentication Required" = "Proxy Authentication Required";
+"Request Entity Too Large" = "Request Entity Too Large";
+"Request Timeout" = "Request Timeout";
+"Request-URI Too Large" = "Request-URI Too Large";
+"Requested Range Not Satisfiable" = "Requested Range Not Satisfiable";
+"Reset Content" = "Reset Content";
+"See Other" = "See Other";
+"Service Unavailable" = "Service Unavailable";
+"Switching Protocols" = "Switching Protocols";
+"Temporary Redirect" = "Temporary Redirect";
+"Unauthorized" = "Unauthorized";
+"Unprocessable Entity" = "Unprocessable Entity";
+"Unsupported Media Type" = "Unsupported Media Type";
+"Use Proxy" = "Use Proxy";
+
+
+/* sync_error.cpp */
+"Authentication failed" = "Authentication failed";
+"Connection failed" = "Connection failed";
+"Error communicating with server" = "Error communicating with server";
+"Failed to configure Sync session" = "Failed to configure Sync session";
+"Failed to initialize the Sync module" = "Failed to initialize the Sync module";
+"Failed to send data" = "Failed to send data";
+"Failed to start Sync session" = "Failed to start Sync session";
+"Failed to stop Sync session" = "Failed to stop Sync session";
+"Invalid Sync parameters" = "Invalid Sync parameters";
+"No error" = "No error";
+"No remote directories selected" = "No remote directories selected";
+"Permission denied to sync with remote folder" = "Permission denied to sync with remote folder";
+"Remote path is not a directory" = "Remote path is not a directory";
+"Sync engine error" = "Sync engine error";
+"Sync error" = "Sync error";
+"Sync session error" = "Sync session error";
+"Sync session failed to start" = "Sync session failed to start";
+"Sync tasks stopped. You are running very low on disk space." = "Sync tasks stopped. You are running very low on disk space.";
+"Waiting for previous Sync session to end" = "Waiting for previous Sync session to end";
+"Your user name or password is incorrect" = "Your user name or password is incorrect";
+"code" = "code";
+
+
+/* sync_error_dialog.cpp */
+" File Errors" = " File Errors";
+" Session Errors" = " Session Errors";
+"&Copy" = "&Copy";
+"Displaying %1$d of %2$llu errors" = "Displaying %1$d of %2$llu errors";
+"Message" = "Message";
+"Remote" = "Remote";
+"Share" = "Share";
+"Type" = "Type";
+"Warning" = "Warning";
+
+
+/* sync_item_widget2.cpp */
+"%d conflict(s)" = "%d conflict(s)";
+"%d file error(s)" = "%d file error(s)";
+"%d file(s)" = "%d file(s)";
+"%s remaining" = "%s remaining";
+"Checking for changes" = "Checking for changes";
+"Current File" = "Current File";
+"Done" = "Done";
+"Downloading" = "Downloading";
+"Never started" = "Never started";
+"Next attempt in %s" = "Next attempt in %s";
+"Next sync in %s" = "Next sync in %s";
+"Nothing to sync" = "Nothing to sync";
+"Retrying" = "Retrying";
+"Start file sync" = "Start file sync";
+"Stop file sync" = "Stop file sync";
+"Synced" = "Synced";
+"Syncing" = "Syncing";
+"Unknown size" = "Unknown size";
+"Uploading" = "Uploading";
+"total files and directories" = "total files and directories";
+
+
+/* sync_queue_manager.cpp */
+"Local directory is not specified" = "Local directory is not specified";
+
+
+/* sync_settings_dialog.cpp */
+"Failed to create directory: %s" = "Failed to create directory: %s";
+"Local Folder Path" = "Local Folder Path";
+"No remote folders selected." = "No remote folders selected.";
+"Reset Sync" = "Reset Sync";
+"Status" = "Status";
+"Sync Settings" = "Sync Settings";
+"Sync settings could not be saved due to the " = "Sync settings could not be saved due to the ";
+"Synchronize with the selected remote folders" = "Synchronize with the selected remote folders";
+"The local sync folder cannot be empty." = "The local sync folder cannot be empty.";
+"The local sync folder selected is not empty. Do you want to continue?" = "The local sync folder selected is not empty. Do you want to continue?";
+"This will reset your sync history. Click Yes to continue." = "This will reset your sync history. Click Yes to continue.";
+"Warning:%s\n\nContinue?" = "Warning:%s\n\nContinue?";
+"You are changing continuous mode.\nThis will also reset sync. Click Yes to continue." = "You are changing continuous mode.\nThis will also reset sync. Click Yes to continue.";
+
+
+/* sync_stats.cpp */
+"Idle" = "Idle";
+"Paused" = "Paused";
+"Running" = "Running";
+
+
+/* sync_widget.cpp */
+"File sync" = "File sync";
+"Sync is not available for this account" = "Sync is not available for this account";
+"Sync settings" = "Sync settings";
+
+
+/* system_utils.mm */
+"com.aspera.connect" = "com.aspera.connect";
+
+
+/* task.cpp */
+"Cancelled" = "Cancelled";
+"Cleared" = "Cleared";
+"Decrypting" = "Decrypting";
+"Error %s" = "Error %s";
+"Finished" = "Finished";
+"Finished -> %s" = "Finished -> %s";
+"Unknown" = "Unknown";
+"Waiting" = "Waiting";
+
+
+/* task_manager.cpp */
+"%s duplicate skipped." = "%s duplicate skipped.";
+"%s duplicates skipped." = "%s duplicates skipped.";
+"%s file loaded." = "%s file loaded.";
+"%s files loaded." = "%s files loaded.";
+"A task is in progress, try again later." = "A task is in progress, try again later.";
+"All failed tasks cleared." = "All failed tasks cleared.";
+"All finished tasks cleared." = "All finished tasks cleared.";
+"All pending tasks cleared." = "All pending tasks cleared.";
+"All tasks cleared" = "All tasks cleared";
+"Clearing all tasks..." = "Clearing all tasks...";
+"Clearing failed tasks..." = "Clearing failed tasks...";
+"Clearing finished tasks..." = "Clearing finished tasks...";
+"Clearing pending tasks..." = "Clearing pending tasks...";
+"Could not clear all tasks." = "Could not clear all tasks.";
+"Could not clear failed tasks." = "Could not clear failed tasks.";
+"Could not clear finished tasks." = "Could not clear finished tasks.";
+"Could not clear pending tasks." = "Could not clear pending tasks.";
+"Could not load files." = "Could not load files.";
+"Could not open file %1$s, for reading. %2$s" = "Could not open file %1$s, for reading. %2$s";
+"Deleting encrypted source files..." = "Deleting encrypted source files...";
+"Encrypted source files deleted from finished tasks." = "Encrypted source files deleted from finished tasks.";
+"Failed Tasks reloaded." = "Failed Tasks reloaded.";
+"Failed to reload tasks." = "Failed to reload tasks.";
+"Loading files..." = "Loading files...";
+"No files cleared for unknown status." = "No files cleared for unknown status.";
+"No files cleared." = "No files cleared.";
+"No files found." = "No files found.";
+"Not all encrypted files could be deleted." = "Not all encrypted files could be deleted.";
+"Reloading failed tasks..." = "Reloading failed tasks...";
+
+
+/* task_state_running.cpp */
+"Sync error: %s. Sync has been disabled" = "Sync error: %s. Sync has been disabled";
+
+
+/* token_refresher.cpp */
+"Token empty/expired" = "Token empty/expired";
+
+
+/* transfer.cpp */
+"Authentication failed.  Host is empty." = "Authentication failed.  Host is empty.";
+"Destination path not allowed: %s" = "Destination path not allowed: %s";
+"Destination root not allowed. %s" = "Destination root not allowed. %s";
+"Ensure the server file still exists and is accessible." = "Ensure the server file still exists and is accessible.";
+"Error: " = "Error: ";
+"Error: Authentication failed." = "Error: Authentication failed.";
+"Error: Communication problem, ensure both client and server are connected to the network." = "Error: Communication problem, ensure both client and server are connected to the network.";
+"Error: Ensure that a valid fasp proxy address is set." = "Error: Ensure that a valid fasp proxy address is set.";
+"Error: FASP process failed to initialize." = "Error: FASP process failed to initialize.";
+"Error: Session data transfer timeout (server)." = "Error: Session data transfer timeout (server).";
+"Error: Session failed to connect to the remote server." = "Error: Session failed to connect to the remote server.";
+"Source path not allowed: %s" = "Source path not allowed: %s";
+"Source root not allowed. %s" = "Source root not allowed. %s";
+"The ascp executable is missing. Repair your Connect or Drive installation." = "The ascp executable is missing. Repair your Connect or Drive installation.";
+"Unable to check source or destination path - paths datafile missing" = "Unable to check source or destination path - paths datafile missing";
+"User is empty." = "User is empty.";
+
+
+/* transfer_controller.cpp */
+"Replace Files" = "Replace Files";
+
+
+/* transfer_progress_formatter.cpp */
+"%s B" = "%s B";
+"%s GB" = "%s GB";
+"%s KB" = "%s KB";
+"%s MB" = "%s MB";
+"%s TB" = "%s TB";
+
+
+/* transfer_properties.cpp */
+"Could not create fasp url from destination: %s" = "Could not create fasp url from destination: %s";
+"Could not create fasp url from: %s" = "Could not create fasp url from: %s";
+"Input is not a fasp url: %s" = "Input is not a fasp url: %s";
+
+
+/* transfer_status_widget.cpp */
+" percent" = " percent";
+"Authenticating..." = "Authenticating...";
+"Clear list" = "Clear list";
+"Decryption finished" = "Decryption finished";
+"Decryption in progress..." = "Decryption in progress...";
+"Delete source files on complete" = "Delete source files on complete";
+"Downloading %1$s (%2$s)" = "Downloading %1$s (%2$s)";
+"Error: Authentication failed" = "Error: Authentication failed";
+"Error: Server refused request" = "Error: Server refused request";
+"Go to" = "Go to";
+"Measuring bandwidth..." = "Measuring bandwidth...";
+"Open containing folder" = "Open containing folder";
+"Queued" = "Queued";
+"Resume" = "Resume";
+"Resuming..." = "Resuming...";
+"Retrying in" = "Retrying in";
+"Show in Transfer Monitor" = "Show in Transfer Monitor";
+"Start" = "Start";
+"Stop" = "Stop";
+"Stopping..." = "Stopping...";
+"Transferring" = "Transferring";
+"Transferring %1$s (%2$s)" = "Transferring %1$s (%2$s)";
+"Unlock encrypted files" = "Unlock encrypted files";
+"Uploading %1$s (%2$s)" = "Uploading %1$s (%2$s)";
+"elapsed" = "elapsed";
+"remaining" = "remaining";
+
+
+/* transfer_worker.cpp */
+"FASP process failed to initialize." = "FASP process failed to initialize.";
+"File error" = "File error";
+
+
+/* transfers_pref_widget.cpp */
+"Always ask me where to save downloaded files." = "Always ask me where to save downloaded files.";
+"Attempts:" = "Attempts:";
+"Automatically retry failed transfers" = "Automatically retry failed transfers";
+"Enable multi-session" = "Enable multi-session";
+"Enable queuing" = "Enable queuing";
+"Interval:" = "Interval:";
+"KB" = "KB";
+"Kbps" = "Kbps";
+"Maximum concurrent transfers:" = "Maximum concurrent transfers:";
+"Multi-session" = "Multi-session";
+"Number of sessions:" = "Number of sessions:";
+"Queue" = "Queue";
+"Save downloaded files to:" = "Save downloaded files to:";
+"Split files larger than:" = "Split files larger than:";
+"Start interval between sessions:" = "Start interval between sessions:";
+"The interval specifies an amount of time that will elapse between each attempt to restart a failed transfer." = "The interval specifies an amount of time that will elapse between each attempt to restart a failed transfer.";
+"When transferring faster than:" = "When transferring faster than:";
+"seconds" = "seconds";
+"time(s)" = "time(s)";
+
+
+/* transfers_window.cpp */
+"Transfers - %s" = "Transfers - %s";
+
+
+/* tray_handler.cpp */
+"&About..." = "&About...";
+"&Open Log Folder" = "&Open Log Folder";
+"&Open log folder" = "&Open log folder";
+"&Others..." = "&Others...";
+"&Preferences..." = "&Preferences...";
+"&Quit" = "&Quit";
+"&Run diagnostic" = "&Run diagnostic";
+"&Unlock Encrypted Files" = "&Unlock Encrypted Files";
+"&Unlock encrypted files" = "&Unlock encrypted files";
+"Ac&tivity" = "Ac&tivity";
+
+
+/* utils.cpp */
+"Shared access signature must have either Read-List permissions or Read-Write-Delete-List permissions." = "Shared access signature must have either Read-List permissions or Read-Write-Delete-List permissions.";
+"\n%1$sName is greater than max length: %2$d" = "\n%1$sName is greater than max length: %2$d";
+"\n%sName cannot contain these characters: \\ / * ? : \" " = "\n%sName cannot contain these characters: \\ / * ? : \" ";
+"\n%sName is empty." = "\n%sName is empty.";
+"\n%sPassword is empty." = "\n%sPassword is empty.";
+"\n%sServer address is empty." = "\n%sServer address is empty.";
+"\n%sServer address is invalid." = "\n%sServer address is invalid.";
+"\n%sStorage path for Azure can not be empty or \" = "\n%sStorage path for Azure can not be empty or \";
+"\n%sUser name is empty." = "\n%sUser name is empty.";
+
+
+/* utils_helpers.cpp */
+"GetVolumePathName of '%1$s' failed: %2$ld" = "GetVolumePathName of '%1$s' failed: %2$ld";
+
+
+/* win_file_dialog_helper.cpp */
+"Sending remote files is not supported" = "Sending remote files is not supported";
+
+
+/* win_preferences_window.cpp */
+"Apply" = "Apply";
+"Bandwidth" = "Bandwidth";
+"General" = "General";
+"Network" = "Network";
+"Preferences - %s" = "Preferences - %s";
+"Preferences contains errors:\n" = "Preferences contains errors:\n";
+"Security" = "Security";
+
+
