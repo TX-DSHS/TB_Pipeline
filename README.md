@@ -32,29 +32,29 @@ The TB pipeline requires a combination of github code and AWS S3 stored database
 
 1. Clone this repository to a /bioinformatics/ section of the AWS EC2 with the command: 
 
-git clone  https://github.com/TX-DSHS/tbCDC.git
+git clone  https://github.com/TX-DSHS/TB_Pipeline.git
 
-2. Pull the kraken database from AWS S3 to /bioinformatics/varpipe_wgs/data/kraken2_db with the command: 
+2. Pull the kraken database from AWS S3 to /bioinformatics/TB_Pipeline/varpipe_wgs/data/kraken2_db with the command: 
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/kraken2_db/ /bioinformatics/tbCDC/varpipe_wgs/data/kraken2_db/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/kraken2_db/ /bioinformatics/TB_Pipeline/varpipe_wgs/data/kraken2_db/ --region us-gov-west-1
 
-3. Pull the tools/ folders from AWS S3 to /bioinformatics/varpipe_wgs/tools/ with the commands: 
+3. Pull the tools/ folders from AWS S3 to /bioinformatics/TB_Pipeline/varpipe_wgs/tools/ with the commands: 
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/clockwork-0.11.3/ /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/clockwork-0.11.3/ /bioinformatics/TB_Pipeline/varpipe_wgs/tools/ --region us-gov-west-1
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/bcftools /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/bcftools /bioinformatics/TB_Pipeline/varpipe_wgs/tools/ --region us-gov-west-1
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/gatk-4.2.4.0 /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/gatk-4.2.4.0 /bioinformatics/TB_Pipeline/varpipe_wgs/tools/ --region us-gov-west-1
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/snpEff /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/snpEff /bioinformatics/TB_Pipeline/varpipe_wgs/tools/ --region us-gov-west-1
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/bwa /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/bwa /bioinformatics/TB_Pipeline/varpipe_wgs/tools/ --region us-gov-west-1
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/picard.jar /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/picard.jar /bioinformatics/TB_Pipeline/varpipe_wgs/tools/ --region us-gov-west-1
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/ref2.fa /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/ref2.fa /bioinformatics/TB_Pipeline/varpipe_wgs/tools/ --region us-gov-west-1
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/samtools /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/samtools /bioinformatics/TB_Pipeline/varpipe_wgs/tools/ --region us-gov-west-1
 
 4. Run the command "bash setup.sh" to finish the installation. This script runs several steps: Downloads the clockwork singularity image, Downloads GATK, Builds a reference fasta and creates BWA indexes
 5. Create the conda environment using the requirements file with this command: conda create --name tbCDC --file requirements.txt
