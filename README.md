@@ -34,15 +34,11 @@ The TB pipeline requires a combination of github code and AWS S3 stored database
 
 git clone  https://github.com/TX-DSHS/tbCDC.git
 
-2. Run the command "bash setup.sh" to finish the installation. This script runs several steps: Downloads the clockwork singularity image, Downloads GATK, Builds a reference fasta and creates BWA indexes
-3. Create the conda environment using the requirements file with this command: conda create --name tbCDC --file requirements.txt
-4. Edit the /tools/clockwork-0.11.3/clockwork script with the right local filepath
-5. Add the path in 2 above to your shell path before running the pipeline
-6. Pull the kraken database from AWS S3 to /bioinformatics/varpipe_wgs/data/kraken2_db with the command: 
+2. Pull the kraken database from AWS S3 to /bioinformatics/varpipe_wgs/data/kraken2_db with the command: 
 
 aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/kraken2_db/ /bioinformatics/tbCDC/varpipe_wgs/data/kraken2_db/ --region us-gov-west-1
 
-7. Pull the tools/ folders from AWS S3 to /bioinformatics/varpipe_wgs/tools/ with the commands: 
+3. Pull the tools/ folders from AWS S3 to /bioinformatics/varpipe_wgs/tools/ with the commands: 
 
 aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/clockwork-0.11.3/ /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
 
@@ -60,7 +56,10 @@ aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_
 
 aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/samtools /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
 
-
+4. Run the command "bash setup.sh" to finish the installation. This script runs several steps: Downloads the clockwork singularity image, Downloads GATK, Builds a reference fasta and creates BWA indexes
+5. Create the conda environment using the requirements file with this command: conda create --name tbCDC --file requirements.txt
+6. Edit the /tools/clockwork-0.11.3/clockwork script with the right local filepath
+7. Add the path in 2 above to your shell path before running the pipeline
 
 
 
