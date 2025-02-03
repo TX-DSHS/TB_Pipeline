@@ -40,25 +40,25 @@ git clone  https://github.com/TX-DSHS/tbCDC.git
 5. Add the path in 2 above to your shell path before running the pipeline
 6. Pull the kraken database from AWS S3 to /bioinformatics/varpipe_wgs/data/kraken2_db with the command: 
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/kraken2_db/ /bioinformatics/varpipe_wgs/data/kraken2_db/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/kraken2_db/ /bioinformatics/tbCDC/varpipe_wgs/data/kraken2_db/ --region us-gov-west-1
 
 7. Pull the tools/ folders from AWS S3 to /bioinformatics/varpipe_wgs/tools/ with the commands: 
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/clockwork-0.11.3/ /bioinformatics/varpipe_wgs/tools/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/clockwork-0.11.3/ /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/bcftools /bioinformatics/varpipe_wgs/tools/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/bcftools /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/gatk-4.2.4.0 /bioinformatics/varpipe_wgs/tools/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/gatk-4.2.4.0 /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/snpEff /bioinformatics/varpipe_wgs/tools/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/snpEff /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/bwa /bioinformatics/varpipe_wgs/tools/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/bwa /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/picard.jar /bioinformatics/varpipe_wgs/tools/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/picard.jar /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/ref2.fa /bioinformatics/varpipe_wgs/tools/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/ref2.fa /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
 
-aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/samtools /bioinformatics/varpipe_wgs/tools/ --region us-gov-west-1
+aws s3 cp --recursive s3://804609861260-bioinformatics-infectious-disease/TB/TB_Pipeline/tools/samtools /bioinformatics/tbCDC/varpipe_wgs/tools/ --region us-gov-west-1
 
 
 
