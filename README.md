@@ -68,7 +68,7 @@ aws s3 cp --recursive s3://430118851772-bioinformatics-infectious-disease/TB/TB_
 **Run Command**
 
 Within the /bioinformatics/.../data directory, run this command:
-/runVarpipeline.sh TX-########
+./runVarpipeline.sh TX-########
 
 The pipeline will take several hours to complete. Output folder will be zipped upon completion.
 
